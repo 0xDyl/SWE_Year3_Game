@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 project(SWE_Year3_Game)
 
-# Neovim LSP / clangd compilation database support
+# Sorts my LSP
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-# Require Modern C++ (C++17 recommended)
+# Sets version to C++ 17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
