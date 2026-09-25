@@ -1,0 +1,11 @@
+lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o: \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/src/SFML/Audio/SoundSource.cpp \
+ /usr/include/stdc-predef.h \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/Audio/SoundSource.hpp \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/Audio/Export.hpp \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/Config.hpp \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/Audio/AlResource.hpp \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/System/Vector3.hpp \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/include/SFML/System/Vector3.inl \
+ /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/lib/SFML/src/SFML/Audio/ALCheck.hpp \
+ /usr/include/AL/al.h /usr/include/AL/alc.h

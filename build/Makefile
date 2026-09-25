@@ -195,6 +195,19 @@ practical1/fast:
 .PHONY : practical1/fast
 
 #=============================================================================
+# Target rules for targets named pong
+
+# Build rule for target.
+pong: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pong
+.PHONY : pong
+
+# fast build rule for target.
+pong/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/build
+.PHONY : pong/fast
+
+#=============================================================================
 # Target rules for targets named sfml-system
 
 # Build rule for target.
@@ -283,6 +296,30 @@ src/practical1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical1.dir/build.make CMakeFiles/practical1.dir/src/practical1.cpp.s
 .PHONY : src/practical1.cpp.s
 
+src/practical2.o: src/practical2.cpp.o
+.PHONY : src/practical2.o
+
+# target to build an object file
+src/practical2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/src/practical2.cpp.o
+.PHONY : src/practical2.cpp.o
+
+src/practical2.i: src/practical2.cpp.i
+.PHONY : src/practical2.i
+
+# target to preprocess a source file
+src/practical2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/src/practical2.cpp.i
+.PHONY : src/practical2.cpp.i
+
+src/practical2.s: src/practical2.cpp.s
+.PHONY : src/practical2.s
+
+# target to generate assembly for a file
+src/practical2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/src/practical2.cpp.s
+.PHONY : src/practical2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -297,6 +334,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... pong"
 	@echo "... practical1"
 	@echo "... sfml-audio"
 	@echo "... sfml-graphics"
@@ -306,6 +344,9 @@ help:
 	@echo "... src/practical1.o"
 	@echo "... src/practical1.i"
 	@echo "... src/practical1.s"
+	@echo "... src/practical2.o"
+	@echo "... src/practical2.i"
+	@echo "... src/practical2.s"
 .PHONY : help
 
 

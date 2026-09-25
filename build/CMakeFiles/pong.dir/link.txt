@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/pong.dir/src/practical2.cpp.o -o bin/pong  -Wl,-rpath,/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/lib/SFML/lib lib/SFML/lib/libsfml-graphics.so.2.6.2 lib/SFML/lib/libsfml-window.so.2.6.2 lib/SFML/lib/libsfml-system.so.2.6.2 

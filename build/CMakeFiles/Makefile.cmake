@@ -100,6 +100,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/practical1.dir/DependInfo.cmake"
+  "CMakeFiles/pong.dir/DependInfo.cmake"
   "lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   "lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
   "lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/DependInfo.cmake"

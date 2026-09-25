@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/b
 
 # The main recursive "all" target.
 all: CMakeFiles/practical1.dir/all
+all: CMakeFiles/pong.dir/all
 all: lib/SFML/all
 .PHONY : all
 
@@ -73,6 +74,7 @@ preinstall: lib/SFML/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/practical1.dir/clean
+clean: CMakeFiles/pong.dir/clean
 clean: lib/SFML/clean
 .PHONY : clean
 
@@ -202,7 +204,7 @@ CMakeFiles/practical1.dir/all: lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.d
 CMakeFiles/practical1.dir/all: lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical1.dir/build.make CMakeFiles/practical1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/practical1.dir/build.make CMakeFiles/practical1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=1 "Built target practical1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=2,3 "Built target practical1"
 .PHONY : CMakeFiles/practical1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -222,13 +224,41 @@ CMakeFiles/practical1.dir/clean:
 .PHONY : CMakeFiles/practical1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pong.dir
+
+# All Build rule for target.
+CMakeFiles/pong.dir/all: lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
+CMakeFiles/pong.dir/all: lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
+CMakeFiles/pong.dir/all: lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=1 "Built target pong"
+.PHONY : CMakeFiles/pong.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 70
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 0
+.PHONY : CMakeFiles/pong.dir/rule
+
+# Convenience name for target.
+pong: CMakeFiles/pong.dir/rule
+.PHONY : pong
+
+# clean rule for target.
+CMakeFiles/pong.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pong.dir/build.make CMakeFiles/pong.dir/clean
+.PHONY : CMakeFiles/pong.dir/clean
+
+#=============================================================================
 # Target rules for target lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir
 
 # All Build rule for target.
 lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target sfml-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target sfml-system"
 .PHONY : lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 
 # Build rule for subdir invocation for target.
@@ -254,12 +284,12 @@ lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
 lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all: lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sfml-window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target sfml-window"
 .PHONY : lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 
 # Build rule for subdir invocation for target.
 lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 0
 .PHONY : lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
@@ -280,7 +310,7 @@ lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all: lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58 "Built target sfml-network"
 .PHONY : lib/SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
@@ -307,12 +337,12 @@ lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: lib/SFML/src/SFML/S
 lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: lib/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target sfml-graphics"
 .PHONY : lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
 lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 0
 .PHONY : lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -333,12 +363,12 @@ lib/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
 lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: lib/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target sfml-audio"
 .PHONY : lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
 lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles 0
 .PHONY : lib/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule

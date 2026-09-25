@@ -18,3 +18,7 @@ add_subdirectory("lib/SFML")
 # Practical 1 
 add_executable(practical1 src/practical1.cpp)
 target_link_libraries(practical1 PRIVATE sfml-graphics sfml-window sfml-system)
+
+# Practical 2  -> Pong Practical
+add_executable(pong src/practical2.cpp)
+target_link_libraries(pong PRIVATE sfml-graphics sfml-window sfml-system)

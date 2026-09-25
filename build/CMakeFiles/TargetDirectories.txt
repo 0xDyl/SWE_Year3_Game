@@ -1,4 +1,5 @@
 /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles/practical1.dir
+/home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles/pong.dir
 /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles/package.dir
 /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles/package_source.dir
 /home/crip/university/year3/gamesEngineering/SWE_Year3_Game/build/CMakeFiles/edit_cache.dir
